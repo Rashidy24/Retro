@@ -36,6 +36,7 @@ body {
     background-color: var(--main);
     cursor: pointer;
 }
+
 .sec a ,
 .logo a {
     text-decoration: none !important;
@@ -43,9 +44,9 @@ body {
 }
 .sec {
     padding: 20rem 0 15rem 5rem;
-    background: #52c234;  
-    background: -webkit-linear-gradient(to right, #061700, #52c234);  
-    background: linear-gradient(to right, #061700, #52c234); 
+    background: #16222A;  
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  
+    background: linear-gradient(to right, #3A6073, #16222A); 
 }
 .sec span {
     font-size: 1.6rem;
@@ -92,16 +93,17 @@ body {
 }
 
 .container article:first-child ,
-.container article:nth-child(2) {
+.container article:nth-child(2) ,
+.container article:last-child {
     width: 100%;
     margin-bottom: 2rem;
 }
 
 .container article:first-child h2 ,
-.container article:nth-child(2) h2 {
+.container article:nth-child(2) h2 ,
+.container article:last-child h2 {
     font-size: 3rem;
 }
-.container article:first-child p:first-of-type ,
 .container article:nth-child(2) p {
     font-size: 1.6rem;
     margin-top: 1.2rem;
@@ -114,7 +116,8 @@ body {
 }
 
 .container article:first-child ul ,
-.container article:nth-child(2) ul {
+.container article:nth-child(2) ul ,
+.container article:last-child ul {
     margin-top: 1.2rem;
     padding: 0;
     list-style-type: disc;
@@ -132,3 +135,4 @@ body {
     line-height: 1.7;
     margin: .5rem 0;
 }
+
